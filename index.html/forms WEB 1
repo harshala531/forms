@@ -3,31 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
+    <title>Contact Us | Indian Cafe</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="contact-form.css">
 </head>
-
 <body>
 
+    <!-- HEADER AND NAV -->
     <header>
-        <h1>Indian Café</h1>
+        <h1>Indian Cafe</h1>
         <nav>
             <a href="index.html">Home</a>
-            <a href="menu.html">Menu</a>
+            <a href="index.html#menu">Menu</a>
             <a href="contact.html">Contact</a>
         </nav>
     </header>
 
+    <!-- CONTACT SECTION -->
     <section class="contact-container">
         <h2>Contact Us</h2>
 
         <form action="https://formsubmit.co/harshalasawant2001@gmail.com" method="POST">
-
-            <!-- REQUIRED hidden settings -->
+            <!-- Prevent Captcha -->
             <input type="hidden" name="_captcha" value="false">
+            <!-- Table format email -->
             <input type="hidden" name="_template" value="table">
 
-            <!-- Form fields -->
             <label for="name">Full Name</label>
             <input type="text" id="name" name="name" placeholder="Enter your name" required>
 
@@ -43,3 +44,4 @@
 
 </body>
 </html>
+
